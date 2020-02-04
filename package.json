@@ -1,0 +1,16 @@
+{
+  "name": "wenjie_zhang_calc_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+
+  },
+  "author": "Wenjie Zhang",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
