@@ -27,7 +27,7 @@ class MathOperations {
     static squareRoot(a){
         return squareRoot(a)
     }
-
+    
 }
 
 module.exports = MathOperations;
