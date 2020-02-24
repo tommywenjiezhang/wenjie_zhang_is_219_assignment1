@@ -18,3 +18,22 @@ test('Statistic Calculator normalPdf', () => {
         expect(testArr[i]).toBeCloseTo(resultArr[i], 3);
     }
 });
+
+test('Statistic Calculator z-score', () => {
+    let sourceArr = [7,9,12,13,14,15];
+    let test = Stats.zScore(11, sourceArr);
+    let result = -0.23735;
+    expect(test).toBeCloseTo(result, 3);
+
+});
+
+test('Statistic Calculator median', () => {
+    let sourceArr = [7,9,12,13,14,15];
+    let test = Stats.median(sourceArr);
+    let result = 12.5;
+    expect(test).toBeCloseTo(result, 1);
+
+});
+
+
+
