@@ -1,5 +1,5 @@
 
-const Sanitization = require('../Sanitization')
+const Sanitization = require('../calculation/Sanitization')
 
 
 describe("Pass Number return True",
