@@ -1,4 +1,4 @@
-const multiply = require('../multiply');
+const multiply = require('../calculation/multiply');
 
 
 

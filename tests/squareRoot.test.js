@@ -1,4 +1,4 @@
-const  squareRoot = require('../squareRoot');
+const  squareRoot = require('../calculation/squareRoot');
 
 describe('Square Root of 4 is 2',()=>{
     test('Square Root of 4 is 2 ', () => {
